@@ -46,7 +46,7 @@ class DropdownHeader extends DropdownWidget {
 class _DropdownHeaderState extends DropdownState<DropdownHeader> {
   Widget buildItem(
       BuildContext context, dynamic title, bool selected, int index) {
-    final Color primaryColor = Theme.of(context).primaryColor;
+    final Color primaryColor = Color(0xFF06A9F4);
     final Color unselectedColor = Theme.of(context).unselectedWidgetColor;
     final GetItemLabel getItemLabel = widget.getItemLabel;
 
